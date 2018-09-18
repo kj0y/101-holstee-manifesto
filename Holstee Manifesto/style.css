@@ -1,0 +1,88 @@
+main {
+  background-image: url("https://images.unsplash.com/photo-1536113920441-9bc4ca64019c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d67825a7eed0a034e7989347a6292229&auto=format&fit=crop&w=1000&q=60");
+  background-color: black;
+  width: 430px;
+  height: 990px;
+  border: 10px solid gainsboro;
+}
+
+section {
+  background-color: rgba(114, 131, 140, 0.25);
+  width: 410px;
+  height: 980px;
+  padding: 10px;
+}
+
+p {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px;
+}
+
+span {
+  font: 2.0em CallunaRegular;
+  letter-spacing: .075em;
+}
+
+.half {
+  display: table;
+  float: left;
+  height: 9%;
+  width: 50%;
+}
+
+.var1 { /* pink (to be used with half class) */
+  background-color: rgba(232, 53, 220, 0.3);
+  font-family: 'Raleway', sans-serif;
+}
+
+.var2 {   /* green (to be used with half class) */
+  background-color: rgba(35, 229, 190, 0.3);
+  font-family: 'PT Sans', sans-serif;
+}
+
+.rightHalfLong {   /* purple */
+  background-color: rgba(142, 70, 214, 0.3);
+  display: table;
+  float: right;
+  clear: right;
+  height: 18%;
+  width: 50%;
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.long {   /* blue */
+  background-color: rgba(70, 142, 214, 0.3);
+  display: table;
+  float: left;
+  clear: left;
+  height: 18%;
+  width: 50%;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 25px;
+  text-align: center;
+}
+
+.wide { /* gray */
+  background-color: rgba(138, 147, 145, 0.3);
+  display: table;
+  font-size: 20px;
+  font-weight: bold;
+  height: 9%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+@font-face {
+    font-family: 'CallunaRegular';
+    src: url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.eot');
+    src: url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.woff') format('woff'),
+         url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.ttf') format('truetype'),
+         url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.svg#CallunaRegular') format('svg');
+}
